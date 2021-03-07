@@ -3,19 +3,20 @@ import './App.css';
 import Header from './components/Header';
 import Home from './components/Home';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Checkout from './components/Checkout';
+
 
 function App() {
   return (
     //  BEM convention
     <Router>
       <div className="App">
+        <Header />
         <Switch>
           <Route path="/checkout">
-            <Header />
-            <h1>I AM A CHECKOUT, SMASH THE LIKE BUTTON</h1>
+            <Checkout />
           </Route>
           <Route path="/">
-            <Header />
             <Home />
           </Route>
         </Switch>
