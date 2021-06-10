@@ -1,13 +1,14 @@
 
 import './App.css';
+import Header from './components/Header';
+import Home from './components/Home';
 
 function App() {
   return (
     //  BEM convention
     <div className="App">
-      <h1>Hello, Amazon Store Coming!</h1>
-      {/* Header */}
-      {/* Home */}
+      <Header />
+      <Home />
     </div>
   );
 }
