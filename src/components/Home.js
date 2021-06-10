@@ -14,16 +14,52 @@ const Home = () => {
                 />
 
                 <div className="home__row">
-                    <Product />
-                    <Product />
+                    <Product
+                        title='The Lean startup'
+                        price={29.99}
+                        image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
+                        rating={3}
+                    />
+
+                    <Product
+                        title='The Lean startup'
+                        price={29.99}
+                        image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
+                        rating={3}
+                    />
+
                 </div>
                 <div className="home__row">
-                    {/* {Product} */}
-                    {/* {Product} */}
-                    {/* {Product} */}
+                    <Product
+                        title='The Lean startup'
+                        price={29.99}
+                        image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
+                        rating={3}
+                    />
+
+                    <Product
+                        title='The Lean startup'
+                        price={29.99}
+                        image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
+                        rating={3}
+                    />
+
+                    <Product
+                        title='The Lean startup'
+                        price={29.99}
+                        image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
+                        rating={3}
+                    />
+
                 </div>
                 <div className="home__row">
-                    {/* {Product} */}
+                    <Product
+                        title='The Lean startup'
+                        price={29.99}
+                        image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
+                        rating={3}
+                    />
+
                 </div>
             </div>
         </div>
