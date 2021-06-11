@@ -11,15 +11,20 @@ function App() {
     //  BEM convention
     <Router>
       <div className="App">
-        <Header />
-
+    
         <Switch>
 
+          <Route path="/login">
+            <h1>Login page</h1>
+          </Route>
+
           <Route path="/checkout">
+            <Header />
             <Checkout />
           </Route>
 
           <Route path="/">
+            <Header />
             <Home />
           </Route>
 
