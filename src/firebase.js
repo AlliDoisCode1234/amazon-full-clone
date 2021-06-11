@@ -1,4 +1,5 @@
 import firebase from "firebase";
+// firebase init
 
 const firebaseConfig = {
 
