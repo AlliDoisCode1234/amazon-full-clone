@@ -11,6 +11,16 @@ const Login = () => {
         const signIn = e => {
             e.preventDefault()
 
+            auth
+                .signInWithEmailAndPassword(email, password)
+                .then((auth) => {
+                    // it successfully logged the user in with email and password
+                    if (auth) {
+                        history.push('/')
+                    }
+                })
+                .catch(error => alert(error.message))
+
             // some fancy firesbase login stuff
 
         }
