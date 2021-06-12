@@ -2,15 +2,16 @@ import React, { useState, useEffect } from 'react'
 import './Payment.css'
 import { UseStateValue } from '../StateProvider'
 import CheckoutProduct from './CheckoutProduct'
-import { Link } from 'react-router-dom'
+import { Link, useHistory } from 'react-router-dom'
 import { CardElement, useElements, useStripe } from '@stripe/react-stripe-js'
 import CurrencyFormat from 'react-currency-format'
 import { getBasketTotal } from '../reducer'
-import axios from 'axios'
+import axios from '../axios'
 
 const Payment = () => {
 
         const [{ basket, user }, dispatch] = UseStateValue();
+        const history = useHistory();
 
         const stripe = useStripe();
         const elements = useElements();
