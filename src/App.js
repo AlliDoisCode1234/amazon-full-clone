@@ -14,7 +14,7 @@ import { Elements } from "@stripe/react-stripe-js";
 import Orders from './components/Orders';
 
 
-const promise = loadStripe('pk_test_51I6KlaEgMoxwgMH8SDBUuqj2jdZEjLhmxqgqzzQd9kxGY9fp1L37db88VVc5aIS0OruU0q1al0DIAhXiKPytwvQi00r59VOY6Q');
+const promise = loadStripe("pk_test_51I6KlaEgMoxwgMH8SDBUuqj2jdZEjLhmxqgqzzQd9kxGY9fp1L37db88VVc5aIS0OruU0q1al0DIAhXiKPytwvQi00r59VOY6Q");
 
 
 function App() {
@@ -50,37 +50,29 @@ function App() {
     //  BEM convention
     <Router>
       <div className="App">
-    
         <Switch>
-
           <Route path="/orders">
             <Header />
             <Orders />
           </Route>
-
           <Route path="/login">
             <Login />
           </Route>
-
           <Route path="/checkout">
             <Header />
             <Checkout />
           </Route>
-
           <Route path="/payment">
             <Header />
             <Elements stripe={promise}>
               <Payment />
             </Elements>
           </Route>
-
           <Route path="/">
             <Header />
             <Home />
           </Route>
-
         </Switch>
-        
       </div>
     </Router>
   );
