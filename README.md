@@ -4,7 +4,7 @@
 
 **Link to project:** https://full-clone-cd754.web.app/
 
-[![alt tag](https://i.imgur.com/vf7mGq4.png)] (https://full-clone-cd754.web.app/git )
+![alt tag](https://i.imgur.com/vf7mGq4.png)
 
 ## How It's Made:
 
