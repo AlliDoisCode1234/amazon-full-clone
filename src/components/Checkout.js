@@ -27,6 +27,7 @@ const Checkout = () => {
                             image={item.image}
                             price={item.price}
                             rating={item.rating}
+                            key="{item}"
                         />
 
                     ))}
@@ -35,10 +36,9 @@ const Checkout = () => {
             </div>
             <div className="checkout__right">
                 <Subtotal />
-
             </div>
         </div>
-    )
+    );
 }
 
 export default Checkout
