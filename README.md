@@ -1,10 +1,10 @@
 # My Awesome Project
 
-** Fully Functional and Responsive E-Commerce Amazon Clone**
+## Fully Functional and Responsive E-Commerce Amazon Clone
 
 **Link to project:** https://full-clone-cd754.web.app/
 
-![alt tag](https://i.imgur.com/vf7mGq4.png)
+[![alt tag](https://i.imgur.com/vf7mGq4.png)] (https://full-clone-cd754.web.app/git )
 
 ## How It's Made:
 
