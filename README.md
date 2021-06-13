@@ -8,7 +8,7 @@
 
 ## How It's Made:
 
-**Tech used:** ReactJS, Express, Firebase, Axios, Stripe, Moment, and Material-UI
+**Tech used:** ReactJS, Express, Firebase, NodeJS, Cloud Functions, Axios, and Stripe 
 
 Creating an Amazon look-a-like, I focused on Amazon's customer obsession to bring a front and backend together with the possibilty to scale and incorporate system design patterns. Using the BEM naming convention, I created efficient arrow function components and hooks for state management. You can sign up, sign in, purchase, and review past orders.
 
